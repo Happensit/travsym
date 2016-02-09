@@ -1,0 +1,4 @@
+happensit_blog:
+    resource: "@HappensitBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /

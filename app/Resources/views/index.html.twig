@@ -1,0 +1,11 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+    Welcome to your new Symfony Application! <br/>
+    {% trans %}Hello {% endtrans %}<br/>
+    {% trans %}Dont translate{% endtrans %}<br/>
+
+    {{ '1455047563'|localizeddate('long', 'none', locale) }}
+
+
+{% endblock %}
